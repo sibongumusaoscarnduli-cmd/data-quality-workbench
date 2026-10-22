@@ -13,7 +13,7 @@ On Windows PowerShell set `$env:NODE_BIN = 'node'` before running the Python com
 
 ## Current local result
 
-13 Python tests passed, including cross-language parity. Five Node tests passed. GitHub Actions configuration is supplied but remote CI has not yet run.
+13 Python tests passed, including cross-language parity. Five Node tests passed. GitHub Actions also passed: [test run](https://github.com/sibongumusaoscarnduli-cmd/data-quality-workbench/actions/runs/39761573867).
 
 Python coverage includes valid leap days, impossible dates, duplicate IDs, blank lines/BOMs, escaped and multiline fields, numeric precision and bounds, schema errors, short records, sample totals, CLI output and exit codes. The parity test runs eight fixtures through both engines and compares the entire JSON result.
 
@@ -24,9 +24,9 @@ Python coverage includes valid leap days, impossible dates, duplicate IDs, blank
 - [x] A valid single-record input shows 100% valid and no issues.
 - [x] Upload a UTF-8 CSV via the file picker.
 - [x] Export and inspect a JSON report (totals verified).
-- [ ] Inspect the final deployed URL after GitHub Pages is enabled.
+- [x] Inspect the deployed GitHub Pages URL; repeat filtering, correction, file import and JSON export.
 
-The last item cannot be completed locally. Update this checklist only after observing the corresponding behaviour.
+All listed acceptance checks were observed on the public deployment on 22 October 2026.
 
 ## Adding a rule
 

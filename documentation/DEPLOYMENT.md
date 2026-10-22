@@ -3,7 +3,7 @@
 ## Intended destination
 
 GitHub account confirmed by the user: `sibongumusaoscarnduli-cmd`.
-Proposed repository: `data-quality-workbench` (check availability before creation).
+Repository: https://github.com/sibongumusaoscarnduli-cmd/data-quality-workbench
 Hosting: GitHub Pages, static `docs/` directory, no paid services.
 
 ## Publish procedure
@@ -20,7 +20,13 @@ Hosting: GitHub Pages, static `docs/` directory, no paid services.
 
 ## Current state
 
-Local implementation and automated tests are complete. Account sign-in is still required; the repository and public demo have not been created or verified. Do not treat the expected GitHub Pages URL as a deployed URL.
+Published and verified on 22 October 2026. Live demo: https://sibongumusaoscarnduli-cmd.github.io/data-quality-workbench/
+
+Tests passed: https://github.com/sibongumusaoscarnduli-cmd/data-quality-workbench/actions/runs/39761573867
+
+Initial deployment: https://github.com/sibongumusaoscarnduli-cmd/data-quality-workbench/actions/runs/39761654242
+
+The deployed sample, warning filter, corrected valid input, file import and JSON export were tested in a real browser.
 
 ## Release gate
 
