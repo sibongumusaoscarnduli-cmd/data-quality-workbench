@@ -2,7 +2,9 @@
 
 An original portfolio project for Sibongumusa Oscar Nduli. Inspect an orders export before using it in a dashboard: find duplicate IDs, missing values, impossible dates, invalid quantities/prices and payment statuses.
 
-**Status:** implemented and locally tested; public deployment pending GitHub account access. No live URL is claimed yet.
+**Live demo:** [https://sibongumusaoscarnduli-cmd.github.io/data-quality-workbench/](https://sibongumusaoscarnduli-cmd.github.io/data-quality-workbench/)
+
+**Status:** published on GitHub Pages. Python and browser CI passed; sample validation, filtering, correction, file import and JSON export verified on the public demo on 22 October 2026.
 
 ## Try it in 60 seconds
 
@@ -59,7 +61,7 @@ UTF-8 CSV -> parser -> schema checks -> row rules -> report
 
 ## Deployment
 
-Publish this repository as `data-quality-workbench`, then enable GitHub Pages from the `main` branch, `/docs` folder. The demo is static and needs no server credentials. Run CI before publishing and verify the deployed sample plus file import and export. Deployment has not been completed yet.
+GitHub Pages publishes the `main` branch, `/docs` folder. The demo is static and needs no server credentials. See the deployment guide for release and rollback instructions.
 
 ## Inspiration and authorship
 
